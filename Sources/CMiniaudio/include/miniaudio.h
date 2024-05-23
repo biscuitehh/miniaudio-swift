@@ -22,7 +22,7 @@ extern "C" {
 #define MA_VERSION_MINOR    11
 #define MA_VERSION_REVISION 21
 #define MA_VERSION_STRING   MA_XSTRINGIFY(MA_VERSION_MAJOR) "." MA_XSTRINGIFY(MA_VERSION_MINOR) "." MA_XSTRINGIFY(MA_VERSION_REVISION)
-
+#define MA_DEBUG_OUTPUT
 #if defined(_MSC_VER) && !defined(__clang__)
     #pragma warning(push)
     #pragma warning(disable:4201)   /* nonstandard extension used: nameless struct/union */
